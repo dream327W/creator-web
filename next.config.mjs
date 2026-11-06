@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: { formats: ["image/avif", "image/webp"] },
+  output: "export",
+  basePath: "/creator-web",
+  images: { unoptimized: true },
 };
 
 export default nextConfig;
